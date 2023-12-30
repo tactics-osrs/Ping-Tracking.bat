@@ -15,6 +15,9 @@ When you run the script, it prompts you to enter the domain you want to ping (e.
 
 • Pressing Enter will nulify the timer and instantly send a ping, if you choose to rapidly do so manually.
 
+## Error Handling
+Before logging the ping result, the script first checks if the domain is responding using the find command. If the ping command does not find the phrase “Reply from” in its output, it means there was no response from the domain. In this case, the script prints an error message and goes back to the domain input prompt.
+
 ## Usage
 To use this script, simply run it in a command prompt. You’ll need to have the necessary permissions to write to the directory where the script is located, as it needs to create and write to pingresults.txt.
 
