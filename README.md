@@ -17,6 +17,7 @@ When you run the script, it prompts you to enter the domain you want to ping (e.
 ## Usage
 To use this script, simply run it in a command prompt. You’ll need to have the necessary permissions to write to the directory where the script is located, as it needs to create and write to pingresults.txt.
 
+## Note
 Please note that this script is intended for use on Windows systems, as it uses the Windows ping command and batch file syntax.
 
 
