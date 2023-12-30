@@ -6,7 +6,7 @@ When you run the script, it prompts you to enter the domain you want to ping (e.
 
 • Logs the current time to a text file (pingresults.txt).
 
-• Pings the specified domain once and appends the result to the same text file.
+• Pings the specified domain once and appends the result to the same text file. (Meaning it will create a .txt file to the location of the script, and log the data from the Ping.)
 
 • Waits for 5 seconds before repeating the process.
 
