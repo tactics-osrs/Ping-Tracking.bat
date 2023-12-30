@@ -4,15 +4,15 @@ This is a simple Windows batch script that continuously pings a specified domain
 ## How it works
 When you run the script, it prompts you to enter the domain you want to ping (e.g., github.com). It then enters a loop where it does the following:
 
-•Logs the current time to a text file (pingresults.txt).
+• Logs the current time to a text file (pingresults.txt).
 
-•Pings the specified domain once and appends the result to the same text file.
+• Pings the specified domain once and appends the result to the same text file.
 
-•Waits for 5 seconds before repeating the process.
+• Waits for 5 seconds before repeating the process.
 
-•The script will continue to run and log ping results until you manually stop it.
+• The script will continue to run and log ping results until you manually stop it.
 
-•Pressing Enter will nulify the timer and instantly send a ping, if you choose to rapidly do so manually.
+• Pressing Enter will nulify the timer and instantly send a ping, if you choose to rapidly do so manually.
 
 ## Usage
 To use this script, simply run it in a command prompt. You’ll need to have the necessary permissions to write to the directory where the script is located, as it needs to create and write to pingresults.txt.
